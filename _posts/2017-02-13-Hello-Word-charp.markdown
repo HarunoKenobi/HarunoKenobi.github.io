@@ -40,7 +40,7 @@ class HelloWord
 ~~~
 
 Se não entender tudo o que está escrito não se preocupe, uma coisa de cada vez. No c# o final da linha do comando é finalizando com um '**;**' caso apareça um erro como : ***error CS1002: ; expected*** é porque esqueceu de colocar um **;** ao final de algum comando.
-Abra o terminal novamente, use o atalho ** ctrl + shift + ' ** para abrir o navegador no vs code e em seguida execute o seguinte comando:
+Abra o terminal novamente, use o atalho [**ctrl + shift + '**][ para abrir o navegador no vs code e em seguida execute o seguinte comando:
 
 ~~~
 > $dotnet build
