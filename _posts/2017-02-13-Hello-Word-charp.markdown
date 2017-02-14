@@ -6,9 +6,10 @@ categoria: c# iniciante
 ---
 Ei leitor, seja muito bem vindo ao meu blog. Este é o meu primeiro post e estou trazendo para você um conteúdo bem bacana sobre c#, para você quer iniciar nessa linguagem mas precisa de um empurrãozinho.
 
-Nesse tutorial estarei utilizando duas ferramentas de software livre, pois acredito que todos devem ter a oportunidade de programar não importando o sistema operacional e que sejam instalações simples e limpa. Estarei utilizando o visual [visual studio code](https://code.visualstudio.com/) que é um editor de texto que faz parte de uma iniciativa open source da Microsoft e em conjunto vou utilizar o [.net core](https://www.microsoft.com/net/core). Porém, se quiserem utilizar outras ferramentas como a IDE visual studio fique a vontade.
+Nesse tutorial estarei utilizando duas ferramentas de software livre, pois acredito que todos devem ter a oportunidade de programar não importando o sistema operacional e que sejam instalações simples e limpa. Estarei utilizando o [visual studio code](https://code.visualstudio.com/){:target="_blank"} que é um editor de texto que faz parte de uma iniciativa open source da Microsoft e em conjunto vou utilizar o [.net core](https://www.microsoft.com/net/core){:target="_blank"}. Porém, se quiserem utilizar outras ferramentas como a IDE visual studio fique a vontade.
 
-Sem mais delongas e com todas as ferramentas prontas, criar um projetinho .net core console. Para isso crie um diretório em sistema, em seguida abra o terminal ou cmd se estiver no windows e digite os seguintes comandos e em seguida aperte enter:
+Sem mais delongas e com todas as ferramentas prontas, criaremos um projeto .net core console. Para isso crie um diretório em sistema, em seguida abra o terminal ou cmd se estiver no windows e digite os seguintes comandos e em seguida aperte enter:
+
 ~~~
 > $dotnet new -t console
 Created new C# project in /home/haruno/Documentos/Iniciante/Hello World.
@@ -16,6 +17,7 @@ Created new C# project in /home/haruno/Documentos/Iniciante/Hello World.
 > $dotnet restore
 log  : Restore completed in 1632ms.
 ~~~
+
 Agora abra o visual studio code, no menu global clique em [Arquivos >> Abrir pasta] e selecione a pasta que criou o novo projeto. Ele já criou para nós um projetinho console com hello word feito, mas não vamos usar esse, vamos fazer um porque o que queremos é aprender, certo? Apague tudo o que estiver escrito no arquivo. Em seguida insere o seguinte código:
 ~~~
 class HelloWord
