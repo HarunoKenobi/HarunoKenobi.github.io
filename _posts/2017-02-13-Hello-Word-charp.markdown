@@ -8,7 +8,7 @@ Ei leitor, seja muito bem vindo ao meu blog. Este é o meu primeiro post e estou
 
 Nesse tutorial estarei utilizando duas ferramentas de software livre, pois acredito que todos devem ter a oportunidade de programar não importando o sistema operacional e que sejam instalações simples e limpa. Estarei utilizando o [visual studio code](https://code.visualstudio.com/){:target="_blank"} que é um editor de texto que faz parte de uma iniciativa open source da Microsoft e em conjunto vou utilizar o [.net core](https://www.microsoft.com/net/core){:target="_blank"}. Porém, se quiserem utilizar outras ferramentas como a IDE visual studio fique a vontade.
 
-Sem mais delongas e com todas as ferramentas prontas, criaremos um projeto .net core console. Para isso crie um diretório em sistema, em seguida abra o terminal ou cmd se estiver no windows e digite os seguintes comandos e em seguida aperte enter:
+Sem mais delongas e com todas as ferramentas prontas, criaremos um projeto .net core console. Para isso crie um diretório em seu sistema operacional e em seguida abra o terminal ou cmd se estiver no windows e digite os seguintes comandos e em seguida aperte enter:
 
 ~~~
 > $dotnet new -t console
@@ -40,7 +40,7 @@ class HelloWord
 ~~~
 
 Se não entender tudo o que está escrito não se preocupe, uma coisa de cada vez. No c# o final da linha do comando é finalizando com um '**;**' caso apareça um erro como : ***error CS1002: ; expected*** é porque esqueceu de colocar um **;** ao final de algum comando.
-Abra o terminal novamente, use o atalho [ **ctrl + shift + ' ** ] para abrir o navegador no vs code e em seguida execute o seguinte comando:
+Abra o terminal novamente, use o atalho ** ctrl + shift + ' ** para abrir o navegador no vs code e em seguida execute o seguinte comando:
 
 ~~~
 > $dotnet build
@@ -95,4 +95,5 @@ Seja muito bem vindo ao csharp Haruno Kenobi, espero que goste da experiência!
 ~~~
 
 Agora teste, mude textos e entradas de textos e divirta-se, por enquanto é só e logo mais eu estarei trazendo a seguência do conteúdo.
-O fonte dessa aplicação ficará no meu [Github](https://github.com/HarunoKenobi/csharp_beginning/tree/master/Hello%20World) acesse e dê um fork na aplicação e qualquer dúvida ou feed back poste nas [Issues](https://github.com/HarunoKenobi/csharp_beginning/issues).
+
+O fonte dessa aplicação ficará disponível no [Github](https://github.com/HarunoKenobi/csharp_beginning/tree/master/Hello%20World) então acesse e dê um fork na aplicação e qualquer dúvida ou feed back poste nas [Issues](https://github.com/HarunoKenobi/csharp_beginning/issues).
